@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+    <style>
+      table {
+        border: 1px black solid;
+        border-collapse: collapse;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:small;
+      }
+      thead {
+        font-weight: bolder;
+        background-color: rgb(199, 199, 199);
+        text-align: center;
+      }
+      thead td {
+        border: 2px black solid;
+        height: 25px;
+      }
+      tbody td {
+        border: 1px black solid;
+        height: 15px;
+      }
+      td.semBorda {
+        border-right: none;
+        border-left: none;
+        padding: 1px 10px 1px 10px;
+      }
+      td.semBordaD {
+        border-right: none
+      }
+      td.semBordaE {
+        border-left: none;
+      }
+      td.coluna1 {
+        vertical-align: top;
+        text-align: center;
+      }
+      td#colunDT {
+        width: 75px;
+      }
+      td#colunHR {
+        width: 30px;
+      }
+      td#colunJG {
+        width: 300px;
+      }
+      td#colunES {
+        width: 110px;
+      }
+      td#colunCI {
+        width: 110px;
+      }
+      td.colunUF {
+        width: 10px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead> 
+        <tr>
+          <td id="colunDT">DATA - DIA</b></td>
+          <td id="colunHR">HORA</td>
+          <td id="colunJG" colspan="5">JOGO</td>
+          <td id="colunES">ESTÁDIO</td>
+          <td id="colunCI">CIDADE</td>
+          <td class="colunUF">UF</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="5" class="coluna1">10/07 - Qua</td>
+          <td>10:30</td>
+          <td class="semBordaD">Ceará</td>
+          <td class="semBorda">CE</td>
+          <td class="semBorda"><b>x</b></td>
+          <td class="semBorda">Sport</td>
+          <td class="semBordaE">PE</td>
+          <td>Castelão</td>
+          <td>Fortaleza</td>
+          <td>CE</td>
+        </tr>
+        <tr>
+          <td>21:00</td>
+          <td class="semBordaD">Vitória</td>
+          <td class="semBorda">BA</td>
+          <td class="semBorda"><b>x</b></td>
+          <td class="semBorda">Paraná</td>
+          <td class="semBordaE">PR</td>
+          <td>Manoel Barradas</td>
+          <td>Salvador</td>
+          <td>BA</td>
+        </tr>
+        <tr>
+          <td>21:45</td>
+          <td class="semBordaD">Flamengo</td>
+          <td class="semBorda">RJ</td>
+          <td class="semBorda"><b>x</b></td>
+          <td class="semBorda">São Paulo</td>
+          <td class="semBordaE">SP</td>
+          <td>Maracanã</td>
+          <td>Rio de Janeiro</td>
+          <td>RJ</td>
+        </tr>
+        <tr>
+          <td>21:45</td>
+          <td class="semBordaD">Corinthians</td>
+          <td class="semBorda">SP</td>
+          <td class="semBorda"><b>x</b></td>
+          <td class="semBorda">Botafogo</td>
+          <td class="semBordaE">RJ</td>
+          <td>Arena Corinthians</td>
+          <td>São Paulo</td>
+          <td>SP</td>
+        </tr>
+        <tr>
+          <td>21:45</td>
+          <td class="semBordaD">Grêmio</td>
+          <td class="semBorda">RS</td>
+          <td class="semBorda"><b>x</b></td>
+          <td class="semBorda">Atlético</td>
+          <td class="semBordaE">MG</td>
+          <td>Arena do Grêmio</td>
+          <td>Porto Alegre</td>
+          <td>RS</td>
+        </tr>
+        <tr>
+          <td rowspan="5" class="coluna1">19/07 - Qui</td>
+          <td>19:30</td>
+          <td class="semBordaD">Cruzeiro</td>
+          <td class="semBorda">MG</td>
+          <td class="semBorda"><b>x</b></td>
+          <td class="semBorda">América</td>
+          <td class="semBordaE">MG</td>
+          <td>Mineirão</td>
+          <td>Belo Horizonte</td>
+          <td>MG</td>
+        </tr>
+        <tr>
+          <td>19:30</td>
+          <td class="semBordaD">Chapecoense</td>
+          <td class="semBorda">SC</td>
+          <td class="semBorda"><b>x</b></td>
+          <td class="semBorda">Bahia</td>
+          <td class="semBordaE">BA</td>
+          <td>Arena Condá</td>
+          <td>Chapecó</td>
+          <td>SC</td>
+        </tr>
+        <tr>
+          <td>20:00</td>
+          <td class="semBordaD">Vasco da Gama</td>
+          <td class="semBorda">RJ</td>
+          <td class="semBorda"><b>x</b></td>
+          <td class="semBorda">Fluminense</td>
+          <td class="semBordaE">RJ</td>
+          <td>São Januário</td>
+          <td>Rio de Janeiro</td>
+          <td>RJ</td>
+        </tr>
+        <tr>
+          <td>20:00</td>
+          <td class="semBordaD">Santos</td>
+          <td class="semBorda">SP</td>
+          <td class="semBorda"><b>x</b></td>
+          <td class="semBorda">Palmeiras</td>
+          <td class="semBordaE">SP</td>
+          <td>Pacaembu</td>
+          <td>São Paulo</td>
+          <td>SP</td>
+        </tr>
+        <tr>
+          <td>21:00</td>
+          <td class="semBordaD">Atlético</td>
+          <td class="semBorda">PR</td>
+          <td class="semBorda"><b>x</b></td>
+          <td class="semBorda">Internacional</td>
+          <td class="semBordaE">RS</td>
+          <td>Arena da Baixada</td>
+          <td>Curitiba</td>
+          <td>PR</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

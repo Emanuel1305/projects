@@ -1,0 +1,27 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.mensagem {
+    padding: 10px;
+    border-radius: 25px 0;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+    max-width: 900px;
+    width: 900px;
+}
+.img-principal {
+    max-width: 900px;
+}
+.img_tam {
+    width: calc((100% / 3) - 3px);
+}
+p {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}

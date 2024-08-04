@@ -1,0 +1,27 @@
+div {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+div.caixa1 {
+  background-color: teal;
+  top: 0;
+  left: 0;
+}
+div.caixa2 {
+  background-color: darkslateblue;
+  top: 0;
+  right: 0;
+}
+div.caixa3 {
+  background-color: chocolate;
+  bottom: 0;
+  left: 0;
+}
+div.caixa4 {
+  background-color: brown;
+  bottom: 0;
+  right: 0;
+}

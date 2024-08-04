@@ -1,0 +1,53 @@
+table {
+  width: 900px;
+  margin: auto;
+  background-color: black;
+  color: white;
+}
+thead td{
+  margin: 10px;
+  padding: 10px;
+}
+thead a {
+  text-decoration: none;
+  color: white;
+}
+thead img {
+  width: 50px;
+}
+tbody td{
+  padding: 10px;
+}
+tbody p, h2 {
+  padding: 10px;
+}
+tbody h1 {
+  font-size: 30pt;
+  padding: 10px;
+  text-align: center;
+  color: brown;
+}
+tbody img{
+  border-radius: 10px;
+  box-shadow: 3px 0px 10px gray;
+  width: 100%;
+  height: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+input {
+  margin: 10px;
+}
+input#btn {
+  margin-left: 36%;
+  width: 100px;
+  cursor: pointer;
+  background-color: brown;
+}
+tfoot td {
+  border-top: 1px solid white;
+}
+

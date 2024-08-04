@@ -1,0 +1,28 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.mensagem {
+    padding: 10px;
+    border-radius: 25px 0;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+    max-width: 900px;
+}
+p {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+.botao {
+    padding: 15px;
+    border-radius: 85px;
+    background-color: blue;
+    color: aliceblue;
+    width: 150px;
+    text-decoration: none;
+}
