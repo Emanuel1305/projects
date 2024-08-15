@@ -1,0 +1,25 @@
+.container {
+  background-color: darkslateblue;
+  width: 200px;
+  height: 150px;
+  margin: auto;
+  padding: 10px;
+  font-family: sans-serif;
+}
+h1 {
+  color: white;
+  text-align: center;
+  border: 5px solid white;
+  border-radius: 50px;
+  width: 80%;
+  margin: 15px auto;
+  padding: 10px;
+}
+p {
+  color: white;
+  font-size: 10pt;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  margin: auto;
+}

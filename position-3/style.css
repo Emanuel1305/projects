@@ -1,0 +1,39 @@
+.container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 3px solid red;
+  margin: 50px auto;
+}
+.boxVermelha {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  top: 0px;
+  left: 0px;
+}
+.boxVerde {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  top: 0px;
+  right: 0px;
+}
+.boxAmarela {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  bottom: 0px;
+  left: 0px;
+}
+.boxPreta {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  bottom: 0px;
+  right: 0px;
+}

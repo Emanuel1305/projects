@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*--MENU--*/
+.menu {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: coral;
+  top: 0px;
+  padding: 10px;
+  box-shadow: 0px 5px 10px black;
+}
+.menu img {
+  width: 100px;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu ul li {
+  margin: 15px;
+}
+.menu ul li  a{
+  color: rgba(255, 255, 255, 0.527);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 11pt;
+}
+.menu ul li  a:hover{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 11pt;
+}
+
+/*--BOX-1--*/
+.box-1 {
+  width: 100%;
+  height: 500px;
+  background-image: url(https://t3.ftcdn.net/jpg/00/27/57/96/360_F_27579652_tM7V4fZBBw8RLmZo0Bi8WhtO2EosTRFD.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*--BOX-2--*/
+.box-2 {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  background-image: url(https://www.attrio.com.br/wp-content/uploads/img-attrio-05.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+.box-2 h2 {
+  background-color: coral;
+  width: 300px;
+  text-align: center;
+  font-size: 15pt;
+  font-family: sans-serif;
+  color: white;
+  padding: 10px;
+  margin: 10px auto;
+}
+.box-2 iframe {
+  display: block;
+  margin: 0 auto;
+  width: 600px; 
+  height: 450px; 
+}
+.box-2 p {
+  background-color: coral;
+  width: 300px;
+  text-align: center;
+  font-size: 11pt;
+  font-family: sans-serif;
+  color: white;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+/*--BOX-3--*/
+.box-3 {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  background-image: url(https://img.freepik.com/fotos-premium/pizza-de-frango-em-cima-da-mesa-fundo-desfocado-generativo-ai_830898-323.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+.box-3 table {
+  margin: 10px auto;
+  border-spacing: 10px;
+  color: white;
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+  text-shadow: 0px 0px 5px black;
+  box-shadow: 0px 0px 10px black;
+}
+.box-3 h2 {
+  margin: 25px;
+  text-align: center;
+  color: coral;
+  font-weight: bolder;
+  text-shadow: 0px 0px 5px black;
+}
+.espaco {
+  width: 80%;
+  border-bottom: 2px solid white;
+}
+td span {
+  color: coral;
+  font-weight: bolder;
+}
+footer {
+  background-color: coral;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  box-shadow: 0 0 10px black;
+  margin-top: 10px;
+}
+footer span {
+ color: rgb(216, 60, 3);
+}
+.botao{
+  width: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  height: 50px;
+  background-color: coral;
+  box-shadow: 0 0 10px black;
+  border-radius: 50%
+}
+.botao img {
+  width: 100%;
+}

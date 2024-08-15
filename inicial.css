@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.about {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.about h2 {
+  color: #333;
+}
+
+.portfolio {
+  padding: 20px;
+  background-color: #eee;
+}
+
+.portfolio h2 {
+  color: #333;
+}
+.portfolio h3 {
+  color: #333;
+}
+
+.portfolio ul {
+
+}
+
+.portfolio li {
+  margin: 10px 0;
+}
+
+.portfolio a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.portfolio a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  bottom: 0;
+}
