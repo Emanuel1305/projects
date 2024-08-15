@@ -1,1 +1,1 @@
-https://emanuel1305.github.io/aulas/index.html
+https://emanuel1305.github.io/aulas/
