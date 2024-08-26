@@ -1,9 +1,13 @@
+/* -- BODY -- */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
 }
+
+/* -- CABEÇALHO -- */
 
 header {
   background-color: #333;
@@ -12,14 +16,18 @@ header {
   text-align: center;
 }
 
-.about {
+/* -- SECTION SOBRE MIM -- */
+
+.sobre {
   padding: 20px;
   background-color: #fff;
 }
 
-.about h2 {
+.sobre h2 {
   color: #333;
 }
+
+/* -- CONTAINER PORTIFOLIO -- */
 
 .portfolio {
   padding: 20px;
@@ -27,29 +35,53 @@ header {
 }
 
 .portfolio h2 {
+  text-align: center;
   color: #333;
 }
-.portfolio h3 {
+
+/* -- CONTAINER PROJETOS -- */
+
+.contProj {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+/* -- PROJETOS BOX -- */
+
+.boxProj {
+  background-color: #e6e6e6;
+  width: 200px;
+  margin: 10px;
+}
+
+.boxProj h3 {
+  text-align: center;
   color: #333;
 }
 
-.portfolio ul {
-
+.boxProj ul {
+  margin: 10px;
+  margin-bottom: 40px;
+  list-style: circle;
 }
 
-.portfolio li {
+.boxProj ul li {
   margin: 10px 0;
 }
 
-.portfolio a {
+.boxProj ul li a {
   color: #0066cc;
   text-decoration: none;
   font-weight: bold;
 }
 
-.portfolio a:hover {
+.boxProj ul li a:hover {
   text-decoration: underline;
 }
+
+/* -- RODAPÉ -- */
 
 footer {
   background-color: #333;
