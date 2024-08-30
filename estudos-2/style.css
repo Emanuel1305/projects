@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 125px;
+    height: 400px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card {
+    width: 20%;
+    transition: all .5s ease-in-out;
+    opacity: .5;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.card, .card img {
+    border-radius: 10px;
+    height: 100%;
+}
+
+.container:hover .card {
+    filter: saturate(0);
+    transform: scale(.95);
+    border: none;
+}
+
+.container .card:hover {
+    transform: scale(1.05);
+    filter: saturate(1.5);
+    border: 2px solid rgba(255, 255, 255, 0.658);
+    opacity: 1;
+}
