@@ -27,6 +27,10 @@ body {
     width: 100%;
 }
 
+.containerInfo#onca {
+    padding-top: 100px;
+}
+
 .info {
     background-color: rgba(0, 0, 0, 0.548);
     backdrop-filter: blur(5px);
