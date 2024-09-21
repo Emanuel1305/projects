@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 600px;
+    width: 80%;
+    margin: 70px auto 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    margin: 10px;
+    text-align: center;
+}
+
+.campo input {
+    border-radius: 5px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.boxButton {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.boxButton button {
+    width: 100px;
+    padding: 2px;
+    border-radius: 10px;
+    border: 2px solid rgb(129, 0, 54);
+    background-color: crimson;
+    color: white;
+}
+
+.boxButton button:hover {
+    cursor: pointer;
+    border: 2px solid rgba(129, 0, 54, 0.938);
+    background-color: rgba(220, 20, 60, 0.938);
+}
+
+.btn {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.btn button {
+    width: 100px;
+    padding: 2px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid rgb(19, 0, 129);
+    background-color: rgb(20, 83, 220);
+    color: white;
+}
+
+.btn button:hover {
+    cursor: pointer;
+    border: 2px solid rgba(19, 0, 129, 0.938);
+    background-color: rgba(20, 83, 220, 0.938);
+}
+
+.resp {
+    width: 93%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    text-align: justify;
+    margin-top: 20px;
+    border: 1px solid rgba(129, 0, 54, 0.938);
+    padding: 0 15px;
+    border-radius: 15px;
+    text-indent: 15px;
+}

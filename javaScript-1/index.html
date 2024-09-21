@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="teste.js"></script>
+</head>
+<body>
+    <div id="box">
+        <p id="p"></p>
+    </div>
+    <button onclick="mudarBackground()">Mudar cor</button>
+    <button onclick="imprimirNome()">Imprimir nome</button>
+    <button onclick="reset()">Reset</button>
+
+    <form action="">
+        <p>
+            <input type="number" id="n1">
+             +
+            <input type="number" id="n2">
+        </p>
+        <button onclick="somar()">Somar</button>
+        <p>O resultado é <span></span></p>
+    </form>
+
+    <script>
+        var n1 = document.querySelector('#n1');
+        var n2 = document.querySelector('#n2');
+        var resultado = document.querySelector('span');
+
+        function somar() {
+            resultado.innerHTML = n1.value + n2.value
+        }
+    </script>
+</body>
+</html>

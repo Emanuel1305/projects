@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.banner h2 {
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50pt;
+    top: 14%;
+    left: 6%;
+}
+
+.saibaMais {
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    right: 90px;
+    bottom: 100px;
+    width: 100px;
+    padding: 10px;
+    box-shadow:  0 0 10px rgb(11, 39, 82);
+    background-color: rgb(64, 109, 206);
+}
+
+.saibaMais:hover {
+    cursor: pointer;
+}
+
+.logo {
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    width: 15%;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 651px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('https://www.bmw.com.br/content/dam/bmw/marketBR/bmw_com_br/condicoesEspeciais/condicoes_espececiais_serie3_23.04.jpg');
+}
+
+
+.menu {
+    top: 0px;
+    width: 100%;
+    background-color: black;
+}
+
+.links {
+    padding: 30px 100px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+body {
+    height: 1550px;
+}
+
+.info {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.info h1{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 20pt;
+}
+
+.info p {
+    text-indent: 30px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.info h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 18pt;
+}
+
+.maisVistos {
+    display: block;
+    padding: 15px;
+    margin-top: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 125px;
+    color: white;
+    text-align: center;
+    background-color: rgb(52, 116, 201);
+}
+
+.maisVistos:hover {
+    cursor: pointer;
+}
+
+.carros {
+    position: relative;
+}
+
+.box {
+    display: block;
+    position: absolute;
+    box-shadow: 0 0 3px black;
+    height: auto;
+    width: 300px;
+    margin: 50px 10px;
+    padding-bottom: 3%;
+}
+
+.box#box1 {
+    left: 320px;
+}
+
+.box#box2 {
+    left: 640px;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box#box3 {
+    left: 960px;
+}
+
+.text {
+    padding: 15px;
+}
+
+.modelo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13pt;
+    margin-bottom: 5px;
+    color: var(--vermelho-forte);
+    font-weight: bolder;
+}
+
+.desc {
+    text-align: center;
+    font-size: 8pt;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.valor {
+    color: var(--vermelho);
+    font-size: 11pt;
+    font-weight: bolder;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.ano {
+    font-size: 8pt;
+}
+
+.btn {
+    display: block;
+    color: var(--vermelho-forte);
+    border: 1px solid;
+    padding: 10px;
+    margin: -15px auto;
+    width: 30%;
+    float: right;
+    margin-right: 15px;
+    font-size: 8pt;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn:hover {
+    box-shadow: 0 0 3px;
+}

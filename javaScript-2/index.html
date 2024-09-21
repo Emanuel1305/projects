@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script 2</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <div class="campo">
+            <label for="marcaV">Marca Veículo</label>
+            <input type="text" name="marcaV" id="marca">
+        </div>
+        <div class="campo">
+            <label for="anoV">Ano Veículo</label>
+            <input type="number" name="anoV" id="ano">
+        </div>
+        <div class="campo">
+            <label for="kmV">Km Veículo</label>
+            <input type="number" name="kmV" id="km">
+        </div>
+        <div class="campo">
+            <label for="valorV">Valor Veículo</label>
+            <input type="number" name="valorV" id="valor">
+        </div>
+        <div class="boxButton">
+            <button type="button" onclick="calcularAno()">Calcular ano</button>
+            <button type="button" onclick="calcularDesconto()">Calcular desconto</button>
+        </div>
+        <div class="btn">
+            <button type="reset">Limpar</button>
+            <button type="submit">Salvar</button>
+        </div>
+        <div class="resp">
+            <p id="txtAno"></p>
+            <p id="txtDesc"></p>
+        </div>
+    </form>
+</body>
+</html>
