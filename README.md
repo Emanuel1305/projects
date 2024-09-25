@@ -38,8 +38,6 @@ Este repositório é uma coleção de atividades práticas e projetos desenvolvi
    - Tecnologias: HTML, CSS
    - Link: [demo](https://emanuel1305.github.io/aulas/site-flexCine/index.html)
 
-*(Adicione mais projetos conforme necessário)*
-
 ## Como Executar
 
 Para executar os projetos localmente, siga estas etapas: 
@@ -52,3 +50,22 @@ Para executar os projetos localmente, siga estas etapas:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/emanuel1305/aulas.git
+
+## Contribuições
+
+Contribuições são sempre bem-vindas!
+
+## Contato
+
+<img src="img/foto-perfil.jpg" alt="Emanuel Victor Marcelo Fagundes" width="150" style="border-radius: 50%;"/>
+
+Fique à vontade para entrar em contato comigo através das seguintes informações:
+
+- **Nome**: Emanuel Victor Marcelo Fagundes
+- **E-mail**: [manelfafa1313@gmail.com](mailto:manelfafa1313@gmail.com)
+- **Usuário GitHub**: [@Emanuel1305](https://github.com/Emanuel1305) 
+- **Redes Sociais**:
+  - **Instagram**: [@manel.fagundes](https://instagram.com/manelfagundes) 
+
+Sinta-se à vontade para me seguir nas redes sociais ou entrar em contato por e-mail para qualquer dúvida ou colaboração!
+
