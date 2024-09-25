@@ -65,7 +65,7 @@ Fique à vontade para entrar em contato comigo através das seguintes informaç�
 - **E-mail**: [manelfafa1313@gmail.com](mailto:manelfafa1313@gmail.com)
 - **Usuário GitHub**: [@Emanuel1305](https://github.com/Emanuel1305) 
 - **Redes Sociais**:
-  - **Instagram**: [@manel.fagundes](https://instagram.com/manelfagundes) 
+  - **Instagram**: [@manel.fagundes](https://instagram.com/manel.fagundes) 
 
 Sinta-se à vontade para me seguir nas redes sociais ou entrar em contato por e-mail para qualquer dúvida ou colaboração!
 
