@@ -47,7 +47,7 @@ Para executar os projetos localmente, siga estas etapas:
 1. **[ABRA O SEGUINTE LINK NO SE NAVEGADOR]**
     - Link: [portifolio](https://emanuel1305.github.io/aulas/);
 
-2. **[NAVEGUE ENTRE OS PROJETOS]**
+## Clonar Repositótio
 
 1. Clone o repositório:
    ```bash
