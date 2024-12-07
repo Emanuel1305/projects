@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Avaliação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário Avaliação</h1>
+    <div class="container">
+        <form action="">
+            <section class="cadastro">
+                <h2>CADASTRO</h2>
+                <input type="text" name="user" id="usuario" placeholder="Usuário">
+                <input type="number" name="age" id="idade" placeholder="Idade">
+                <input type="email" name="email" id="email" placeholder="Endereço E-Mail">
+                <input type="password" name="password" id="senha" placeholder="Senha">
+                <input type="password" name="passwordConfirm" id="senhaConfirm" placeholder="Confirme a Senha">
+                <div class="radio">
+                    <input type="radio" name="acordo" id="radAcordo">
+                    <label for="radAcordo">Concorda com nossa política</label>
+                </div>
+                <button id="registrar">REGISTRAR</button>
+            </section>
+            <section class="login">
+                <h2>LOGIN</h2>
+                <input type="text" name="userLogin" id="userLogin" placeholder="Username">
+                <input type="password" name="userPassword" placeholder="Password" id="userPassword">
+                <button id="logar">Sign In</button>
+            </section>
+        </form>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
