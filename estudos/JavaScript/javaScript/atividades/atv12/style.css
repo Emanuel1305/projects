@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container, .formularios, section {
+    display: flex;
+}
+
+.formularios {
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 0 30px 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+form {
+    flex-basis: 46%;
+    flex-grow: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    text-align: center;
+    color: #525252ee;
+    text-shadow: 0 0 1px;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.container {
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 5px ;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+
+section {
+    gap: 10px;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #525252ee;
+    text-shadow: 0 0 1px;
+    text-align: center;
+}
+
+section input {
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #525252ee;
+}
+
+section button {
+    margin-top: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(149, 178, 179);
+    text-shadow: 0 0 1px white;
+    border: 2px solid #525252ee;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section button:hover {
+    background-color: rgb(120, 150, 151);
+}
+
+.cadastro {
+    flex-grow: 1;
+}
+
+.login {
+    flex-grow: 1.5;
+}
+
+#idade {
+    text-indent: 15px;
+}
+
+.radio {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.table {
+    width: 92%;
+    table-layout: fixed;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #525252ee;
+    background-color: rgb(149, 178, 179);
+}
+
+thead th {
+    padding: 5px;
+    color: #fff;
+    text-shadow: 0 0 1px white;
+    background-color: rgb(120, 150, 151);
+}
+
+tbody tr {
+    background-color: #fff;
+}
+
+tbody td {
+    padding: 3px;
+    overflow: hidden;
+}

@@ -1,93 +1,185 @@
-/* -- BODY -- */
+:root {
+  --cor-primaria: #cc0000;
+  --cor-primaria-clara: #da2424;
+  --cor-secundaria: #ff0000;
+  --cor-destaque: #f03333;
+  --cor-escura: #cccccc;
+  --cor-fundo: #f9f9f9;
+  --cor-texto: #212121;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
 }
-
-/* -- CABEÇALHO -- */
 
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-/* -- SECTION SOBRE MIM -- */
-
-.sobre {
-  padding: 20px;
-  background-color: #fff;
-}
-
-.sobre h2 {
-  color: #333;
-}
-
-/* -- CONTAINER PORTIFOLIO -- */
-
-.portfolio {
-  padding: 20px;
-  background-color: #eee;
-}
-
-.portfolio h2 {
-  text-align: center;
-  color: #333;
-}
-
-/* -- CONTAINER PROJETOS -- */
-
-.contProj {
   display: flex;
-  justify-content: center;
-  align-items: stretch;
-  flex-wrap: wrap;
-}
-
-/* -- PROJETOS BOX -- */
-
-.boxProj {
-  background-color: #e6e6e6;
-  width: 200px;
-  margin: 10px;
-}
-
-.boxProj h3 {
+  align-items: center;
+  justify-content: space-evenly;
   text-align: center;
-  color: #333;
+  width: 100%;
+  background-color: var(--cor-primaria);
+  padding: 1rem 2rem;
+  gap: 10px;
 }
 
-.boxProj ul {
-  margin: 10px;
-  margin-bottom: 40px;
-  list-style: circle;
+nav h1 {
+  color: var(--cor-texto);
 }
 
-.boxProj ul li {
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-top: 10px;
+  gap: 2rem;
+}
+
+nav ul li {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: var(--cor-primaria-clara);
+  text-decoration: none;
+  transition: .3s;
+}
+
+nav a {
+  color: var(--cor-texto);
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background-color: var(--cor-destaque);
+  text-decoration: none;
+  color: var(--cor-texto);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  padding: 2rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+#sobre p {
+  text-align: justify;
+  text-indent: 5%;
+}
+
+#habilidades {
+  text-align: center;
+}
+
+#habilidades h2 {
+  margin-bottom: 10px;
+  background-color: var(--cor-primaria-clara);
+  padding: 10px;
+  border-radius: 0 0 15px 15px;
+  width: 100%;
+}
+
+#habilidades p {
   margin: 10px 0;
 }
 
-.boxProj ul li a {
-  color: #0066cc;
+#projetos {
+  width: 100%;
+  border: 1px solid var(--cor-escura);
+  padding: 35px 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+#projetos h2{
+  margin-top: 0;
+  margin-bottom: 35px;
+  background-color: var(--cor-primaria);
+  padding: 10px;
+  text-indent: 20px;
+  width: 85%;
+  border-radius: 15px 15px 0 0;
+  color: var(--cor-fundo);
+}
+
+.projetos-container {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projeto {
+  background-color: #ffffff;
+  padding: 1rem;
+  border: 1px solid var(--cor-escura);
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.projeto img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.projeto h3 {
+  color: var(--cor-primaria);
+  margin-bottom: 0.5rem;
+}
+
+.projeto p {
+  margin-bottom: 1rem;
+}
+
+.projeto a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--cor-primaria);
+  color: #ffffff;
   text-decoration: none;
-  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
-.boxProj ul li a:hover {
-  text-decoration: underline;
+.projeto a:hover {
+  background-color: var(--cor-destaque);
 }
-
-/* -- RODAPÉ -- */
 
 footer {
-  background-color: #333;
-  color: #fff;
   text-align: center;
-  padding: 10px 0;
+  padding: 1rem;
+  background-color: var(--cor-primaria);
+  color: #ffffff;
   width: 100%;
-  bottom: 0;
 }

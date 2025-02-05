@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário</h1>
+    <div class="container">
+        <div class="formularios">
+            <form action="" id="formCadastro">
+                <section class="cadastro">
+                    <h2>CADASTRO</h2>
+                    <input type="text" name="user" id="inputUsuario" placeholder="Usuário">
+                    <input type="number" name="age" id="inputIdade" placeholder="Idade">
+                    <input type="email" name="email" id="inputEmail" placeholder="Endereço E-Mail">
+                    <input type="password" name="password" id="inputSenha" placeholder="Senha">
+                    <input type="password" name="passwordConfirm" id="inputSenhaConfirm" placeholder="Confirme a Senha">
+                    <div class="radio">
+                        <input type="radio" name="acordo" id="radioAcordo">
+                        <label for="radioAcordo">Concorda com nossa política</label>
+                    </div>
+                    <button id="btnRegistrar">REGISTRAR</button>
+                </section>
+            </form>
+            <form action="" id="formLogin">
+                <section class="login">
+                    <h2>LOGIN</h2>
+                    <input type="text" name="userLogin" id="inputUserLogin" placeholder="Username">
+                    <input type="password" name="userPassword" id="inputUserPassword" placeholder="Password">
+                    <button id="btnLogar">Sign In</button>
+                </section>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
